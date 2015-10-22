@@ -31,7 +31,7 @@ Rectangle *b;
 };
 main_program
 {initCanvas("test",1000,1000);
-    block b1;
+    block b1();
     b1.create(200.0,200.0);
     wait(5);
     b1.explode();
